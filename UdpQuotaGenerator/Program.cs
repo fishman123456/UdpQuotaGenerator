@@ -8,6 +8,7 @@ using UdpQuotaGenerator.Service;
 
 namespace UdpQuotaGenerator
 {
+    // TODO : смотреть занятие от 24-11-2023
     internal class Program
     {
         // RunUdpQuotaGeneratorServer - процедура запуска сервера, работает согласно алгоритму
@@ -15,7 +16,6 @@ namespace UdpQuotaGenerator
         {
 
         }
-
         // RunUdpQoutaGeneratorClient - процедура запуска клиента, работает согласно алгоритму
         static void RunUdpQoutaGeneratorClient(IPEndPoint serverEnpoint, IPEndPoint clientEndPoint)
         {
